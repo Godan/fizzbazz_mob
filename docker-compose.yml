@@ -1,6 +1,6 @@
 version: '2'
 
-service:
+services:
 
   php:
     build: ./docker/php
@@ -9,5 +9,3 @@ service:
       - '443:443'
     volumes:
       - './src:/var/www/html'
-
-    
